@@ -1,24 +1,21 @@
-// Filename - ./components/Navbar.js
-
-import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-    color: #6e5f70;
+    color: #6a586e;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-style: solid;
     border-width: 0 0 2px 0;
-    border-bottom-color: #6e5f70;
+    border-bottom-color: #6a586e;
     z-index: 12;
 `;
 
 export const NavLink = styled(Link)`
     white-space: nowrap;
-    color: #6e5f70;
+    color: #6a586e;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;
@@ -27,22 +24,8 @@ export const NavLink = styled(Link)`
     border-style: solid;
     border-radius: 10px;
     border-width: 2px;
-    border-color: #6e5f70;
+    border-color: #6a586e;
     padding: 5px 10px;
-`;
-
-export const Bars = styled(FaBars)`
-    display: none;
-    color: #808080;
-    @media screen and (max-width: 768px) {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 75%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
 `;
 
 export const NavImage = styled.img`
@@ -52,7 +35,7 @@ export const NavImage = styled.img`
 
 export const NavMenu = styled.div`
     white-space: nowrap;
-    color: #6e5f70;
+    color: #6a586e;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;

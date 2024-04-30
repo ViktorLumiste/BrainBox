@@ -1,0 +1,9 @@
+.FooterContainer{
+    object-position:bottom;
+    bottom:0;
+    background-color: #6a6a6a;
+}
+.FooterText{
+    padding-left: 10px;
+    color: #ffffff;
+}
