@@ -11,10 +11,10 @@ const Navbar = () => {
             <Nav>
                 <Link to="/"><NavImage src={logo} alt="React"/></Link>
                 <NavMenu>
-                    <NavLink to="/tolkimine" activeStyle> TÕLKIMINE</NavLink>
-                    <NavLink to="/tellimine" activeStyle> TÕLKE TELLIMINE</NavLink>
-                    <NavLink to="/hinnakiri" activeStyle> HINNAKIRI</NavLink>
-                    <NavLink to="/kontakt" activeStyle> KONTAKT</NavLink>
+                    <NavLink to="/tolkimine" activeStyle>TÕLKIMINE</NavLink>
+                    <NavLink to="/tellimine" activeStyle>TÕLKE TELLIMINE</NavLink>
+                    <NavLink to="/hinnakiri" activeStyle>HINNAKIRI</NavLink>
+                    <NavLink to="/kontakt" activeStyle>KONTAKT</NavLink>
                 </NavMenu>
             </Nav>
         </>

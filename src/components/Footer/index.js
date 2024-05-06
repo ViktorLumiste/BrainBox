@@ -3,11 +3,9 @@ import "./style.css"
 
 const Footer = () => {
     return (
-        <>
-            <div className="FooterContainer" >
-                <div><p className="FooterText">Brainbox OÜ | Telefon: +372 505 6977 | E-mail: 	brainbox.ou@gmail.com</p></div>
-            </div>
-        </>
+        <div className="FooterContainer" >
+            <div><p className="FooterText">Brainbox OÜ | Telefon: +372 505 6977 | E-mail: 	brainbox.ou@gmail.com</p></div>
+        </div>
     )
 }
 export default Footer
