@@ -1,0 +1,49 @@
+
+.MediumTitle{
+    font-size:40px;
+    margin:0;
+    background: rgba(255, 255, 255, .4);
+}
+.BigTitle{
+    font-size:80px;
+    margin:0;
+    background: rgba(255, 255, 255, .4);
+}
+.SmallTitle{
+    font-size:25px;
+    margin:0;
+    background: rgba(255, 255, 255, .4);
+}
+.TitleContainer{
+    height:600px;
+    background-image: url("../../../img/background.jpg") ;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MainText1{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.Text2Container{
+    background: rgba(248, 248, 248);
+    box-shadow: inset 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+.MainText2{
+    padding-top:10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.SloganLine{
+    width:45%;
+}
+.SloganContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
