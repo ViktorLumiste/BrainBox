@@ -1,15 +1,11 @@
 import logo from '../../../img/brainbox.png';
 
-import React, {useEffect, useState} from "react";
-import { Nav, NavLink, NavMenu, NavImage } from "./NavbarElements";
+import React, { useState, useEffect } from 'react';
+import {LanPicker, LanSwitcher, Nav, NavImage, NavLink, NavMenu} from "./NavbarElements";
 import "./style.css"
 import {Link, useLocation} from "react-router-dom";
-import {LanImage, LanSwitcher} from "../../ee/Navbar/NavbarElements";
-import EE from "../../../img/ee.png";
-import EN from "../../../img/en.png";
-import RU from "../../../img/ru.png";
 
-const RuNavbar = () => {
+const EeNavbar = () => {
     const location = useLocation();
     const [pathname, setPathname] = useState(location.pathname);
 
@@ -31,13 +27,12 @@ const RuNavbar = () => {
     return (
         <>
             <LanSwitcher>
-                <Link to={generateLink('')}><LanImage src={EE} alt="EE" /></Link>
-                <Link to={generateLink('en')}><LanImage src={EN} alt="EN" /></Link>
-                <Link to={generateLink('ru')}><LanImage src={RU} alt="RU" /></Link>
+                <LanPicker to={generateLink('')}>EST</LanPicker>
+                <LanPicker to={generateLink('en')}>ENG</LanPicker>
+                <LanPicker to={generateLink('ru')}>RUS</LanPicker>
             </LanSwitcher>
             <Nav>
                 <Link to="/ru/"><NavImage src={logo} alt="React" /></Link>
-
                 <NavMenu>
                     <NavLink to="/ru/tolkimine" activeStyle>TÕLKIMINE</NavLink>
                     <NavLink to="/ru/tellimine" activeStyle>TÕLKE TELLIMINE</NavLink>
@@ -49,4 +44,4 @@ const RuNavbar = () => {
     );
 };
 
-export default RuNavbar
+export default EeNavbar;

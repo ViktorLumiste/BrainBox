@@ -1,0 +1,17 @@
+.TolkimineContainer{
+    padding-right:20%;
+    padding-left:20%;
+    padding-bottom: 50px;
+}
+.Heading1{
+    font-family: 'open sans condensed', sans-serif;
+    font-weight: 700;
+}
+.Heading2{
+    margin-top: 70px;
+    font-family: 'open sans condensed', sans-serif;
+    font-weight: 700;
+}
+.FillerText{
+    padding-left: 5px;
+}

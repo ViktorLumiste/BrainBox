@@ -1,14 +1,14 @@
 import React from "react";
-import "./style.css"
 
+import styles from "./style.module.css"
 const Main = () => {
     return (
         <div>
-            <div className="TitleContainer">
-                <h2 className="MediumTitle">Tõlgime sinu eest – kiirelt ja soodsalt!</h2>
-                <h1 className="BigTitle">Welcome to Brainbox</h1>
+            <div className={styles.TitleContainer}>
+                <h2 className={styles.MediumTitle}>Tõlgime sinu eest – kiirelt ja soodsalt!</h2>
+                <h1 className={styles.BigTitle}>Kiire tõlketeenus parima hinnaga</h1>
             </div>
-            <div className="MainText1">
+            <div className={styles.MainText1}>
                 <h2>Kiire tõlketeenus parima hinnaga</h2>
                 <p>Tõlgime sinu eest – kiirelt ja soodsalt!
                     Miks kulutada oma väärtuslikku aega ja püüda tõlkida ise, kui sellele kulub väga palju aega?
@@ -16,10 +16,10 @@ const Main = () => {
                     lahendab.
                 </p>
 
-                <a href="#">KÜSI PAKKUMIST</a>
+                <a href="./kontakt">KÜSI PAKKUMIST</a>
             </div>
-            <div className="Text2Container">
-                <div className="MainText2">
+            <div className={styles.Text2Container}>
+                <div className={styles.MainText2}>
                     <h2>OMA TÖÖS JÄRGIME KAHTE PÕHIMÕTET – TÖÖ PEAB OLEMA TEHTUD KVALITEETSELT JA TÄHTAEGSELT!</h2>
                     <p>Tõlkebüroo Brainbox töös lähtutakse Euroopa tõlketeenuse standardist ISO 17100 ja Masintõlke
                         toimetamise standardist ISO 18587.</p>
@@ -30,10 +30,6 @@ const Main = () => {
                     <p>Lisaks sellele on Brainboxi igapäevatöö aluseks ISO 9001 kvaliteedistandardi nõuded.</p>
 
                     <p>Nende standartide järgimine tagab kõrgel tasemel teeninduse ja kvaliteetse tõlketeenuse.</p>
-                    <div className="SloganContainer">
-                        <hr className="SloganLine"/>
-                        <h3 className="Slogan">Slogan text!</h3>
-                    </div>
                 </div>
             </div>
         </div>

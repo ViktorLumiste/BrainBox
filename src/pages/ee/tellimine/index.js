@@ -1,11 +1,13 @@
 import React from "react";
 
+import styles from "./style.module.css"
+
 const EeTellimine = () => {
     return (
-        <div>
+        <div className={styles.TellimineContainer}>
             <h2>TÕLKE TELLIMINE</h2>
             <p>Tõlke tellimine on lihtne ja kiire ning selleks ei pea meie juurde isegi kohale tulema. Säästke oma aega
-                ja raha ning saatke päring meile meiliaadressile brainbox.ou@gmail.com või helistage +372 5056977.</p>
+                ja raha ning saatke päring meile meiliaadressile <b>brainbox.ou@gmail.com</b> või helistage <b>+372 5056977</b>.</p>
             <p>Vastame tööpäevadel teie päringule mõne tunni jooksul. Nädalavahetusel puhkame ajusid, et suudaksime
                 nädala sees luua naudingut pakkuvaid tõlkeid.</p>
             <h3>Miks tellida Brainboxist?</h3>

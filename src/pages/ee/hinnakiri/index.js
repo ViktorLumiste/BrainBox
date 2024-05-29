@@ -1,8 +1,10 @@
 import React from "react";
 
+import styles from "./style.module.css"
+
 const EeHinnakiri = () => {
     return (
-        <div>
+        <div className={styles.HinnakiriContainer}>
             <h2>TÕLKEBÜROO BRAINBOX HINNAKIRI</h2>
             <p>Põhikeelte tõlkimise hinnad leiate hinnakirjast, kuid tõlgime oluliselt rohkemaid keeli. Küsi
                 hinnapakkumist, kui Teie poolt soovitud keelesuund pole toodud alljärgnevas hinnakirjas.</p>
