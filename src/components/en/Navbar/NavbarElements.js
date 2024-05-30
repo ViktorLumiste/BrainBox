@@ -22,10 +22,10 @@ export const NavLink = styled(Link)`
     position: relative;
     transition: color 0.3s ease;
     border-style: solid;
-    border-radius: 10px;
-    border-width: 2px;
+    border-radius: 0.5vw;
+    border-width: 0.2vmin;
     border-color: #6a586e;
-    padding: 5px 10px;
+    padding: 0.25vw 0.25vw;
 `;
 
 export const NavImage = styled.img`
