@@ -1,7 +1,6 @@
 .KontaktContainer{
-    padding-right:20%;
-    padding-left:20%;
-    padding-bottom: 50px;
+    padding: 2% 20%;
+    min-height: calc(100vh - 352px)
 }
 .Heading1{
     font-family: 'open sans condensed', sans-serif;

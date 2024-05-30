@@ -20,6 +20,48 @@ const EeHinnakiri = () => {
                 <li>Suulise tõlketeenuse hind on 1 tunni ehk 60 minuti kohta.</li>
                 <li>Küljendamise/kujundamise hind on toodud 1 A4 leheküljele.</li>
             </ul>
+            <table>
+                <tr>
+                    <th>Keelesuund</th>
+                    <th>Hind (€) KM-ta</th>
+                    <th>Hind (€) KM-ga</th>
+                </tr>
+                <tr>
+                    <td>Eesti-vene/inglise-eesti</td>
+                    <td>10.90</td>
+                    <td>13.30</td>
+                </tr>
+                <tr>
+                    <td>Inglise-vene-inglise</td>
+                    <td>14.00</td>
+                    <td>17.08</td>
+                </tr>
+                <tr>
+                    <td>Masintõlke järeltoimetamine</td>
+                    <td>Küsi pakkumist!</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Toimetamine alates</td>
+                    <td>4.50</td>
+                    <td>5.49</td>
+                </tr>
+                <tr>
+                    <td>Korrektuur alates</td>
+                    <td>3.50</td>
+                    <td>4.27</td>
+                </tr>
+                <tr>
+                    <td>Suuline tõlketeenus</td>
+                    <td>60.00/h</td>
+                    <td>73.20/h</td>
+                </tr>
+                <tr>
+                    <td>Küljendamine/kujundamine alates</td>
+                    <td>4.00</td>
+                    <td>4.88</td>
+                </tr>
+            </table>
         </div>
     );
 };

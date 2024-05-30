@@ -25,39 +25,45 @@ import EnNavbar from "./components/en/Navbar";
 import EnFooter from "./components/en/Footer";
 import RuNavbar from "./components/ru/Navbar";
 import RuFooter from "./components/ru/Footer";
-
+import './App.css';
 
 function App() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/en/*" element={<EnNavbar />} />
-                <Route path="/ru/*" element={<RuNavbar />} />
-                <Route path="/*" element={<EeNavbar />} />
-            </Routes>
-            <Routes>
-                <Route exact path="/" element={<Ee />} />
-                <Route path="/tolkimine" element={<EeTolkimine />} />
-                <Route path="/tellimine" element={<EeTellimine />} />
-                <Route path="/hinnakiri" element={<EeHinnakiri />}/>
-                <Route path="/kontakt" element={<EeKontakt />} />
-                <Route exact path="/en/" element={<En />} />
-                <Route path="/en/tolkimine" element={<EnTolkimine />} />
-                <Route path="/en/tellimine" element={<EnTellimine />} />
-                <Route path="/en/hinnakiri" element={<EnHinnakiri />}/>
-                <Route path="/en/kontakt" element={<EnKontakt />} />
-                <Route exact path="/ru/" element={<Ru />} />
-                <Route path="/ru/tolkimine" element={<RuTolkimine />} />
-                <Route path="/ru/tellimine" element={<RuTellimine />} />
-                <Route path="/ru/hinnakiri" element={<RuHinnakiri />}/>
-                <Route path="/ru/kontakt" element={<RuKontakt />} />
-            </Routes>
-            <Routes>
-                <Route  path="/en/*" element={<EnFooter />} />
-                <Route path="/ru/*" element={<RuFooter />} />
-                <Route  path="/*" element={<EeFooter />} />
-            </Routes>
-        </Router>
+        <div className="App">
+            <Router>
+                <Routes>
+                    <Route path="/en/*" element={<EnNavbar/>}/>
+                    <Route path="/ru/*" element={<RuNavbar/>}/>
+                    <Route path="/*" element={<EeNavbar/>}/>
+                </Routes>
+                <main className="Content">
+                    <Routes>
+                        <Route exact path="/" element={<Ee/>}/>
+                        <Route path="/tolkimine" element={<EeTolkimine/>}/>
+                        <Route path="/tellimine" element={<EeTellimine/>}/>
+                        <Route path="/hinnakiri" element={<EeHinnakiri/>}/>
+                        <Route path="/kontakt" element={<EeKontakt/>}/>
+                        <Route exact path="/en/" element={<En/>}/>
+                        <Route path="/en/tolkimine" element={<EnTolkimine/>}/>
+                        <Route path="/en/tellimine" element={<EnTellimine/>}/>
+                        <Route path="/en/hinnakiri" element={<EnHinnakiri/>}/>
+                        <Route path="/en/kontakt" element={<EnKontakt/>}/>
+                        <Route exact path="/ru/" element={<Ru/>}/>
+                        <Route path="/ru/tolkimine" element={<RuTolkimine/>}/>
+                        <Route path="/ru/tellimine" element={<RuTellimine/>}/>
+                        <Route path="/ru/hinnakiri" element={<RuHinnakiri/>}/>
+                        <Route path="/ru/kontakt" element={<RuKontakt/>}/>
+                    </Routes>
+                </main>
+                <footer>
+                    <Routes>
+                        <Route path="/en/*" element={<EnFooter/>}/>
+                        <Route path="/ru/*" element={<RuFooter/>}/>
+                        <Route path="/*" element={<EeFooter/>}/>
+                    </Routes>
+                </footer>
+            </Router>
+        </div>
     );
 }
 

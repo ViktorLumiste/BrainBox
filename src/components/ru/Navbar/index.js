@@ -2,7 +2,6 @@ import logo from '../../../img/brainbox.png';
 
 import React, { useState, useEffect } from 'react';
 import {LanPicker, LanSwitcher, Nav, NavImage, NavLink, NavMenu} from "./NavbarElements";
-import "./style.css"
 import {Link, useLocation} from "react-router-dom";
 
 const EeNavbar = () => {
@@ -25,7 +24,7 @@ const EeNavbar = () => {
     };
 
     return (
-        <>
+        <div>
             <LanSwitcher>
                 <LanPicker to={generateLink('')}>EST</LanPicker>
                 <LanPicker to={generateLink('en')}>ENG</LanPicker>
@@ -40,7 +39,7 @@ const EeNavbar = () => {
                     <NavLink to="/ru/kontakt" activeStyle>KONTAKT</NavLink>
                 </NavMenu>
             </Nav>
-        </>
+        </div>
     );
 };
 
