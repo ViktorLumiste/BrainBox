@@ -5,11 +5,11 @@ const EeTolkimine = () => {
     return (
 
         <div className={styles.TolkimineContainer}>
-            <h1 className={styles.Heading1}>TÕLKIMINE</h1>
+            <h1>TÕLKIMINE</h1>
             <p className={styles.FillerText}>Meie tõlkijad on filoloogid, kes on spetsialiseerunud erinevatele erialadele. Tänu sellele saame pakkuda
                 tõlkeid väga erinevates valdkondades, olgu selleks siis juriidika, majandus, tehnika, keemia,
                 informaatika, patendid, Euroopa Liidu tekstid või meditsiin.</p>
-            <h2 className={styles.Heading2}>Tehniliste tekstide tõlkimine</h2>
+            <h2>Tehniliste tekstide tõlkimine</h2>
             <p className={styles.FillerText}>Seda teostavad meil tehnilise eriharidusega inimesed, kes on võimelised
                 tõlkima nii kergemat laadi kui
                 ka spetsiifilisema sisuga tekste. Kuna tõlkematerjalid on selles valdkonnas tavaliselt üsna mahukad,
@@ -22,7 +22,7 @@ const EeTolkimine = () => {
             <p className={styles.FillerText}>Väikesemahuliste tehniliste tõlgete korral on tõlke valmimiseks vaja ka
                 tavalisest pikemat tähtaega,
                 sest teemasse sisse elamine ja terminoloogiaga tutvumine võtab vahel isegi kauem aega kui tõlkimine.</p>
-            <h2 className={styles.Heading2}>Juriidiliste tekstide tõlkimine</h2>
+            <h2>Juriidiliste tekstide tõlkimine</h2>
             <p className={styles.FillerText}>Juriidilisi tõlkeid teostavad meil juriidikale spetsialiseerunud tõlkijaid.
                 Sellega garanteerime ka
                 kõige keerukamate tõlgete puhul terminite õigsuse ja algtekstist korrektse arusaamise.
@@ -31,11 +31,11 @@ const EeTolkimine = () => {
             <p className={styles.FillerText}>Tähelepanu tuleb pöörata sellele, et algmaterjalid oleksid korrektsed nii
                 vormiliselt kui ka
                 keeleliselt, sest sellest sõltub tõlke kvaliteet.</p>
-            <h2 className={styles.Heading2}>Majandusalaste tekstide tõlkimine</h2>
+            <h2>Majandusalaste tekstide tõlkimine</h2>
             <p className={styles.FillerText}>Majandusalaste tõlgete valdkond on samuti väga mahukas, kuna siia koondub
                 kõik otseselt äritegevuse ja
                 rahandusega seonduv. Meie tõlkijad on ka selles valdkonnas väga pädevad.</p>
-            <h2 className={styles.Heading2}>Reklaamtekstide tõlge</h2>
+            <h2>Reklaamtekstide tõlge</h2>
             <p className={styles.FillerText}>See on loominguline ja huvitav ning samas aeganõudev töö, kuna tõlge peab
                 haarama kõiki nüansse, mida
                 tekstiga öelda soovitakse.</p>
@@ -46,7 +46,7 @@ const EeTolkimine = () => {
                 mõtlemist, sest see ei ole pelgalt
                 teksti ümberpanemine lähtekeelest sihtkeelde, vaid looming, st suuresti copywriter’i töö.</p>
             <p className={styles.FillerText}>Reklaamtekstide tõlgete tellimisel palume arvestada suurema ajavaruga.</p>
-            <h2 className={styles.Heading2}>Meditsiinialased tekstid</h2>
+            <h2>Meditsiinialased tekstid</h2>
             <p className={styles.FillerText}>Meditsiinialaseid tekste tõlgivad alati meditsiinilise kõrgharidusega
                 spetsialistid, sest nimetatud
                 teema on nii spetsiifiline, et ilma vastava kõrghariduseta poleks lihtsalt võimalik professionaalset

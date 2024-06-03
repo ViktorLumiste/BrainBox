@@ -1,8 +1,10 @@
 import React from "react";
 
+import styles from "./style.module.css"
+
 const RuTellimine = () => {
     return (
-        <div>
+        <div className={styles.TellimineContainer}>
             <h2>ЗАКАЗ ПЕРЕВОДА</h2>
             <p>Мы справимся с любыми задачами, касающимися сферы переводов. Вам не нужно приходить в наш офис. Просто
                 отправьте нам запрос по электронному адресу brainbox.ou@gmail.com или позвоните по телефону +372
