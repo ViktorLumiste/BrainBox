@@ -1,7 +1,10 @@
 import React from "react";
 
+import styles from "./style.module.css"
+
 const EnTellimine = () => {
-    return (<div>
+    return (
+        <div className={styles.TellimineContainer}>
             <h2>ORDERING A TRANSLATION</h2>
             <p>We can handle anything related to the translation area. You do not have to come to our office – you can
                 save time and money by sending us an inquiry at brainbox.ou@gmail.com.</p>
@@ -67,41 +70,58 @@ const EnTellimine = () => {
             </ul>
             <ul>
                 <li>Interpreting service – oral translation that falls under three types: whispered interpreting,
-                interpreting and simultaneous interpreting.</li>
+                    interpreting and simultaneous interpreting.
+                </li>
 
-                <li>Simultaneous interpreting – an interpreter speaks simultaneously with the speaker. The interpreter works
-                in a separate cubicle and the translation is transmitted in the listeners’ earphones at practically
-                synchronously with the speaker’s text. Simultaneous interpreting usually involved two persons. The other
-                translator who is currently not translating helps their colleague by listening to the speech and notes
-                down
-                terms, numbers and names, and when needed, takes over.</li>
+                <li>Simultaneous interpreting – an interpreter speaks simultaneously with the speaker. The interpreter
+                    works
+                    in a separate cubicle and the translation is transmitted in the listeners’ earphones at practically
+                    synchronously with the speaker’s text. Simultaneous interpreting usually involved two persons. The
+                    other
+                    translator who is currently not translating helps their colleague by listening to the speech and
+                    notes
+                    down
+                    terms, numbers and names, and when needed, takes over.
+                </li>
 
-                <li>Consecutive interpreting – the speaker and interpreter speak in turns. A speaker makes a presentation in
-                5-minute parts and the interpreter presents the same material in the target language as close as
-                possible to
-                the source text. The interpreter makes notes during the speech and whenever possible, uses a slideshow
-                presentation.</li>
+                <li>Consecutive interpreting – the speaker and interpreter speak in turns. A speaker makes a
+                    presentation in
+                    5-minute parts and the interpreter presents the same material in the target language as close as
+                    possible to
+                    the source text. The interpreter makes notes during the speech and whenever possible, uses a
+                    slideshow
+                    presentation.
+                </li>
 
                 <li>Whispered interpreting – the interpreter quietly translates for a small group of 2–3 people as the
-                lector
-                speaks.</li>
+                    lector
+                    speaks.
+                </li>
 
                 <li>Layout/design – arranging the text, graphics and/or pictures so that the translation resembles the
-                original
-                as much as possible.</li>
+                    original
+                    as much as possible.
+                </li>
 
                 <li>Editing – ensuring that the target text is in accordance with the source text. During editing, it is
-                checked
-                whether the ideas of the original text are conveyed accurately and that no parts are omitted, whether
-                the
-                sentences make sense and the terms used are correct, relevant and coherent.</li>
+                    checked
+                    whether the ideas of the original text are conveyed accurately and that no parts are omitted,
+                    whether
+                    the
+                    sentences make sense and the terms used are correct, relevant and coherent.
+                </li>
 
-                <li>Proofreading – rereading the target text to verify that it is understandable and linguistically correct.
-                Since the text is not compared to the source text, no changes are made to the content.</li>
+                <li>Proofreading – rereading the target text to verify that it is understandable and linguistically
+                    correct.
+                    Since the text is not compared to the source text, no changes are made to the content.
+                </li>
 
-                <li>Delivery review – overall checking of a translation, so that all parts of the source text are translated
-                and
-                names/numbers in the text are correct and the format meets the requirements of the contracting entity.</li>
+                <li>Delivery review – overall checking of a translation, so that all parts of the source text are
+                    translated
+                    and
+                    names/numbers in the text are correct and the format meets the requirements of the contracting
+                    entity.
+                </li>
             </ul>
 
         </div>
