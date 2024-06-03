@@ -19,12 +19,15 @@ import RuTolkimine from "./pages/ru/tolkimine";
 import RuTellimine from "./pages/ru/tellimine";
 import RuHinnakiri from "./pages/ru/hinnakiri";
 import RuKontakt from "./pages/ru/kontakt";
-import EeFooter from "./components/ee/Footer";
 import EeNavbar from "./components/ee/Navbar";
+import EeFooter from "./components/ee/Footer";
 import EnNavbar from "./components/en/Navbar";
 import EnFooter from "./components/en/Footer";
 import RuNavbar from "./components/ru/Navbar";
 import RuFooter from "./components/ru/Footer";
+import EeContact from "./components/ee/Contact";
+import EnContact from "./components/en/Contact";
+import RuContact from "./components/ru/Contact";
 import './App.css';
 
 function App() {
@@ -62,6 +65,11 @@ function App() {
                         <Route path="/*" element={<EeFooter/>}/>
                     </Routes>
                 </footer>
+                <Routes>
+                    <Route path="/en/*" element={<EnContact/>}/>
+                    <Route path="/ru/*" element={<RuContact/>}/>
+                    <Route path="/*" element={<EeContact/>}/>
+                </Routes>
             </Router>
         </div>
     );

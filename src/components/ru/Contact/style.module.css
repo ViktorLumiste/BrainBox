@@ -1,0 +1,113 @@
+.ContactButtonContainer{
+    position:fixed;
+    bottom: 20px;
+    right: 15px;
+    width:200px;
+    height:50px;
+    background-color:#6a586e;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.ButtonText{
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-right:25px;
+}
+.MailIcon{
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left:25px;
+    width:40px;
+    height:40px;
+}
+
+.ContactFormContainer {
+    display:flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 20px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.CloseButton {
+    align-self: center;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding:10px;
+    color:white;
+    height:100%;
+}
+
+.FormGroup {
+    margin-bottom: 15px;
+}
+
+.FormGroup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.FormGroup input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.FormGroup textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    height:100px;
+    resize:none
+}
+
+.SubmitButton {
+    background: #2f3941;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 33%;
+}
+.ContactFormHeader{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#6a586e;
+    color:white;
+    height:50px;
+    padding: 0 10px;
+}
+.HeaderTitle{
+    align-self: center;
+    margin:0;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.ContactContainer{
+    position:fixed;
+    bottom: 20px;
+    right: 15px;
+    display:flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    outline: black solid 1px;
+}
