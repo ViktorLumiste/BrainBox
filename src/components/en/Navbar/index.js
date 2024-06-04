@@ -33,10 +33,10 @@ const EeNavbar = () => {
             <Nav>
                 <Link to="/en/"><NavImage src={logo} alt="React" /></Link>
                 <NavMenu>
-                    <NavLink to="/en/tolkimine" activeStyle>TÕLKIMINE</NavLink>
-                    <NavLink to="/en/tellimine" activeStyle>TÕLKE TELLIMINE</NavLink>
-                    <NavLink to="/en/hinnakiri" activeStyle>HINNAKIRI</NavLink>
-                    <NavLink to="/en/kontakt" activeStyle>KONTAKT</NavLink>
+                    <NavLink to="/en/tolkimine" activeStyle>TRANSLATION</NavLink>
+                    <NavLink to="/en/tellimine" activeStyle>ORDERING A TRANSLATION</NavLink>
+                    <NavLink to="/en/hinnakiri" activeStyle>PRICES</NavLink>
+                    <NavLink to="/en/kontakt" activeStyle>CONTACT</NavLink>
                 </NavMenu>
             </Nav>
         </div>

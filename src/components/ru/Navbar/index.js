@@ -33,10 +33,10 @@ const EeNavbar = () => {
             <Nav>
                 <Link to="/ru/"><NavImage src={logo} alt="React" /></Link>
                 <NavMenu>
-                    <NavLink to="/ru/tolkimine" activeStyle>TÕLKIMINE</NavLink>
-                    <NavLink to="/ru/tellimine" activeStyle>TÕLKE TELLIMINE</NavLink>
-                    <NavLink to="/ru/hinnakiri" activeStyle>HINNAKIRI</NavLink>
-                    <NavLink to="/ru/kontakt" activeStyle>KONTAKT</NavLink>
+                    <NavLink to="/ru/tolkimine" activeStyle>ПЕРЕВОДЫ</NavLink>
+                    <NavLink to="/ru/tellimine" activeStyle>ЗАКАЗ ПЕРЕВОДА</NavLink>
+                    <NavLink to="/ru/hinnakiri" activeStyle>ПРЕЙСКУРАНТ</NavLink>
+                    <NavLink to="/ru/kontakt" activeStyle>КОНТАКТЫ</NavLink>
                 </NavMenu>
             </Nav>
         </div>
