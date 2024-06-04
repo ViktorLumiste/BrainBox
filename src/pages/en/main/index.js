@@ -33,10 +33,6 @@ const Main = () => {
                         ISO 9001. </p>
 
                     <p>Following these standards guarantees high-level service and quality translations.</p>
-                    <div className={styles.SloganContainer}>
-                        <hr className={styles.SloganLine}/>
-                        <h3 className={styles.Slogan}>Slogan text!</h3>
-                    </div>
                 </div>
             </div>
         </div>

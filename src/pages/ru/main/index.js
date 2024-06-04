@@ -32,10 +32,6 @@ const Main = () => {
 
                     <p>Соблюдение положений вышеупомянутых стандартов обеспечивает высокий уровень обслуживания и
                         предоставление качественных переводческих услуг.</p>
-                    <div className={styles.SloganContainer}>
-                        <hr className={styles.SloganLine}/>
-                        <h3 className={styles.Slogan}>Slogan text!</h3>
-                    </div>
                 </div>
             </div>
         </div>
