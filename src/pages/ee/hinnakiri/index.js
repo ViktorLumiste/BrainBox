@@ -9,7 +9,7 @@ const EeHinnakiri = () => {
             <p>Põhikeelte tõlkimise hinnad leiate hinnakirjast, kuid tõlgime oluliselt rohkemaid keeli. Küsi
                 hinnapakkumist, kui Teie poolt soovitud keelesuund pole toodud alljärgnevas hinnakirjas.</p>
             <b>Minimaalne kirjaliku tõlke maht on 0,5 lehekülge. Kirjaliku tõlke hinnad on toodud 1 standardlehekülje
-                kohta, millele lisandub käibemaks (22%).</b><br/><br/>
+                kohta.</b><br/><br/>
             <b>Kui tekst on arvutis, saab teksti mahu Microsoft Wordis kergesti kindlaks määrata: Tools > Word Count >
                 Characters with spaces ja selle arvu jagamisel 1800-ga saab teada, kui palju tõlkemahtu on.</b>
             <ul>
@@ -23,43 +23,35 @@ const EeHinnakiri = () => {
             <table>
                 <tr>
                     <th>Keelesuund</th>
-                    <th>Hind (€) KM-ta</th>
-                    <th>Hind (€) KM-ga</th>
+                    <th>Hind (€)</th>
                 </tr>
                 <tr>
                     <td>Eesti-vene/inglise-eesti</td>
                     <td>10.90</td>
-                    <td>13.30</td>
                 </tr>
                 <tr>
                     <td>Inglise-vene-inglise</td>
                     <td>14.00</td>
-                    <td>17.08</td>
                 </tr>
                 <tr>
                     <td>Masintõlke järeltoimetamine</td>
                     <td>Küsi pakkumist!</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>Toimetamine alates</td>
                     <td>4.50</td>
-                    <td>5.49</td>
                 </tr>
                 <tr>
                     <td>Korrektuur alates</td>
                     <td>3.50</td>
-                    <td>4.27</td>
                 </tr>
                 <tr>
                     <td>Suuline tõlketeenus</td>
                     <td>60.00/h</td>
-                    <td>73.20/h</td>
                 </tr>
                 <tr>
                     <td>Küljendamine/kujundamine alates</td>
                     <td>4.00</td>
-                    <td>4.88</td>
                 </tr>
             </table>
         </div>

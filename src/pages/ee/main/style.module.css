@@ -5,16 +5,16 @@
 }
 .BigTitle{
     font-size:3vw;
-    margin-bottom:20vw;
+    margin-bottom:10vw;
 }
 .SmallTitle{
     font-size:25px;
     margin:0;
 }
 .TitleContainer{
-    height:35vw;
+    height:20vw;
     background-image: url("../../../img/background.jpg") ;
-    background-position: center;
+    background-position: 50% 45%;
     background-size: cover;
     display:flex;
     flex-direction: column;

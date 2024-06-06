@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     color: #6a586e;
-    padding: 20px 20px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +17,7 @@ export const NavLink = styled(Link)`
     color: #6a586e;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 2vh;
+    font-size: 1.6vh;
     position: relative;
     transition: color 0.3s ease;
     border-style: solid;
@@ -30,6 +29,7 @@ export const NavLink = styled(Link)`
 
 export const NavImage = styled.img`
     height: 10vmin;
+    padding-left:20px;
     pointer-events: none;
 `;
 export const LanImage = styled.img`
@@ -37,7 +37,7 @@ export const LanImage = styled.img`
     pointer-events: none;
 `;
 export const LanPicker = styled(Link)`
-    font-size: 2vh;
+    font-size: 1.6vh;
     color: #6a586e;
     padding: 0 10px;
     text-decoration: none;
@@ -48,14 +48,14 @@ export const NavMenu = styled.div`
     color: #6a586e;
     text-decoration: none;
     margin: 0 15px;
+    padding-top: 2.1vh;
     position: relative;
     transition: color 0.3s ease;
-    padding: 5px 10px;
 `;
 export const LanSwitcher = styled.div`
     position:absolute;
     right:55px;
-    top:10px;
+    top:2px;
     display: flex;
     justify-content: flex-end;
     padding: 5px 5px 0;
