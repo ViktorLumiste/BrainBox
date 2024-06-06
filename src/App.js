@@ -4,6 +4,7 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import Ee from "./pages/ee/main"
 import EeTolkimine from "./pages/ee/tolkimine";
 import EeTellimine from "./pages/ee/tellimine";
@@ -33,7 +34,7 @@ import './App.css';
 function App() {
     return (
         <div className="App">
-            <Router>
+            <HashRouter>
                 <Routes>
                     <Route path="/en/*" element={<EnNavbar/>}/>
                     <Route path="/ru/*" element={<RuNavbar/>}/>
@@ -70,7 +71,7 @@ function App() {
                     <Route path="/ru/*" element={<RuContact/>}/>
                     <Route path="/*" element={<EeContact/>}/>
                 </Routes>
-            </Router>
+            </HashRouter>
         </div>
     );
 }
