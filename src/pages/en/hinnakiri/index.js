@@ -14,42 +14,34 @@ const EnHinnakiri = () => {
                 <tr>
                     <th>Languages</th>
                     <th>Price (€) VAT excl.</th>
-                    <th>Price (€) VAT incl.</th>
                 </tr>
                 <tr>
                     <td>Estonian-Russian/English-Estonian</td>
                     <td>0.056</td>
-                    <td>0.068</td>
                 </tr>
                 <tr>
                     <td>English-Russian-English</td>
                     <td>0.072</td>
-                    <td>0,088</td>
                 </tr>
                 <tr>
                     <td>Machine translation post-editing</td>
                     <td>Ask for a price!</td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>Editing from</td>
                     <td>0.021</td>
-                    <td>0.026</td>
                 </tr>
                 <tr>
                     <td>Proofreading from</td>
                     <td>0.016</td>
-                    <td>0.020</td>
                 </tr>
                 <tr>
                     <td>Oral interpretation from</td>
                     <td>60.00/h</td>
-                    <td>73.20/h</td>
                 </tr>
                 <tr>
                     <td>Layout/design from</td>
                     <td>4.00</td>
-                    <td>4.88</td>
                 </tr>
             </table>
         </div>
