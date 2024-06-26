@@ -17,7 +17,7 @@ const Main = () => {
                     If you have ever considered this option, you are now in the right place.
                 </p>
 
-                <a href="./kontakt">ASK FOR OFFER</a>
+                <a href="./#/en/kontakt">ASK FOR OFFER</a>
             </div>
             <div className={styles.Text2Container}>
                 <div className={styles.MainText2}>

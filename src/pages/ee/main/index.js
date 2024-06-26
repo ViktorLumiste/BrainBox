@@ -16,7 +16,7 @@ const Main = () => {
                     lahendab.
                 </p>
 
-                <a href="./kontakt">KÜSI PAKKUMIST</a>
+                <a href="./#/kontakt">KÜSI PAKKUMIST</a>
             </div>
             <div className={styles.Text2Container}>
                 <div className={styles.MainText2}>
